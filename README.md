@@ -25,3 +25,7 @@ Please cite AAP in your publications if it helps your research:
       Title = {Accelerator-Aware Pruning for Convolutional Neural Networks},
       Year = {2018}
     }
+
+### Pruned Models
+
+The pruned models will be uploaded here in a month.
