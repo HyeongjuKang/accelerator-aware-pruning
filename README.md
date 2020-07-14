@@ -19,12 +19,16 @@ The paper is under review for IEEE Transactions on
 
 Please cite AAP in your publications if it helps your research:
 
-    @article{hjkang2018aap,
-      Author = {Kang, Hyeong-Ju},
-      Journal = {arXiv preprint arXiv:1804.09862},
-      Title = {Accelerator-Aware Pruning for Convolutional Neural Networks},
-      Year = {2018}
-    }
+	@article{hjkang2018aap,
+		author = {Kang, Hyeong-Ju},
+		title = {Accelerator-Aware Pruning for Convolutional Neural Networks},
+		journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+		volume = {30},
+		number = {7},
+		pages = {2093--2103},
+		month = {July},
+		year = {2020}
+	}
 
 ### Pruned Models
 
