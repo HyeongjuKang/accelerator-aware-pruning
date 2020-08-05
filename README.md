@@ -32,11 +32,14 @@ Please cite AAP in your publications if it helps your research:
 
 ### Pruned Models
 
-## Classification CNNs
-# Convolutional layers pruned
-| CNNs	| g	| p	| top-5 accuracy	| models |
-|-------|---|---|------------------:|--------|
-| VGG 16| 8	| 6	| 89.91%			|[vgg16 8 6](https://drive.google.com/file/d/117o2CGn4AAeG75DwvPF1NScFYCRUriOY/view?usp=sharing)|
+#### Classification CNNs
+##### Convolutional layers pruned
+| CNNs		| g	| p	| top-5 accuracy	| pruned models |
+|-------	|---|---|------------------:|--------|
+| AlexNet	| 8	| 6	| 80.42%			|[caffemodel](https://drive.google.com/file/d/1EXLi9WwaU-9qQhLL1hSBGF7qP7jl58Dt/view?usp=sharing) [prototxt](https://drive.google.com/file/d/1EytqXiBdhqm1coD6jmyDeY6qr6xp5NoP/view?usp=sharing)
+| VGG 16	| 8	| 6	| 89.91%			|[caffemodel](https://drive.google.com/file/d/117o2CGn4AAeG75DwvPF1NScFYCRUriOY/view?usp=sharing)|
+| ResNet-50	| 8	| 6	| 91.14%			|[caffemodel](https://drive.google.com/file/d/1mke-oqIrlHMSwJ0GicKHMWDKnfWYbz7g/view?usp=sharing)
+| ResNet-152| 8	| 6	| 92.33%			|[caffemodel](https://drive.google.com/file/d/13w-tXk8kvxlZhQSieGfAettYDXnYNo60/view?usp=sharing)
 
 https://drive.google.com/drive/folders/18CeiPEtS6AI9vQmXGiyfi39mm9J_m2Bk?usp=sharing
 
