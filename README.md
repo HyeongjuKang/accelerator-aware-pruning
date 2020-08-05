@@ -56,7 +56,7 @@ In the following models, only convolutional layers are pruned.
 [caffemodel](https://drive.google.com/file/d/1EXLi9WwaU-9qQhLL1hSBGF7qP7jl58Dt/view?usp=sharing)
 
 In the following models, fully connected layers are pruned, too.
-| CNNs		| g	| p<sub>conv<\sub>| p<sub>fc1,2<\sub>| p<sub>fc3<\sub>| top-5 accuracy	| pruned models |
+| CNNs		| g	| p<sub>conv</sub>| p<sub>fc1,2</sub>| p<sub>fc3</sub>| top-5 accuracy	| pruned models |
 |-------	|---|---|---|---|------------------:|--------|
 | AlexNet\*	| 16| 12| 15| 12| 79.47%			|[caffemodel](https://drive.google.com/file/d/1_4lbvs5qcPFrmwpl7UOfmGRACGF_eLD1/view?usp=sharing)
 | VGG 16	| 16| 12| 15| 12| 88.95%			|[caffemodel](https://drive.google.com/file/d/1RNZDQzehI4AHpjskJ5rRLKcrmnv955LW/view?usp=sharing)
