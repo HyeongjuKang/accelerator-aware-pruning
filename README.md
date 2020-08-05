@@ -1,10 +1,10 @@
-# accelerator-aware-pruning
+# Accelerator-Aware-Pruning (AAP)
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
 By [Hyeong-Ju Kang](http://)
 
-### Introduction
+## Introduction
 
 Accelerator-aware pruning(AAP) is a pruning scheme that considers an acceleartor
 	structure.
@@ -15,7 +15,7 @@ For more details, please refer to my [arXiv paper](http://arxiv.org/abs/1804.098
 	or [the version](https://ieeexplore.ieee.org/document/8693518) published in IEEE Transactions on
 	Circuits and Systems for Video Technology.
 
-### Citing AAP
+## Citing AAP
 
 Please cite AAP in your publications if it helps your research:
 
@@ -30,10 +30,10 @@ Please cite AAP in your publications if it helps your research:
 		year = {2020}
 	}
 
-### Pruned Models
+## Pruned Models
 More pruned models will be uploaded here soon.
 
-#### Classification CNNs
+### Classification CNNs
 In the following models, only convolutional layers are pruned.
 
 | CNNs		| g	| p	| top-5 accuracy	| pruned models |
