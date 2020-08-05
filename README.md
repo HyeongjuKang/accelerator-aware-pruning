@@ -32,4 +32,8 @@ Please cite AAP in your publications if it helps your research:
 
 ### Pruned Models
 
+[vgg 16](https://drive.google.com/drive/folders/18CeiPEtS6AI9vQmXGiyfi39mm9J_m2Bk?usp=sharing/vgg16_base_8_6_0_0_iter_50000.caffemodel)
+
+https://drive.google.com/drive/folders/18CeiPEtS6AI9vQmXGiyfi39mm9J_m2Bk?usp=sharing
+
 The pruned models will be uploaded here in a month.
