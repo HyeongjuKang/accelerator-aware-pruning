@@ -19,7 +19,7 @@ For more details, please refer to my [arXiv paper](http://arxiv.org/abs/1804.098
 
 Please cite AAP in your publications if it helps your research:
 
-	@article{hjkang2018aap,
+	@article{hjkang2020aap,
 		author = {Kang, Hyeong-Ju},
 		title = {Accelerator-Aware Pruning for Convolutional Neural Networks},
 		journal = {IEEE Transactions on Circuits and Systems for Video Technology},
