@@ -11,8 +11,8 @@ Accelerator-aware pruning(AAP) is a pruning scheme that considers an acceleartor
 With accelerator-aware pruning, you can imporove the operator utilization
 	of the sparse NN accelerators like Cambricon-X and EIE,
 	and can design a sparse NN accelerator with much lower complexity.
-For more details, please refer to my [arXiv paper](http://arxiv.org/abs/1804.09862).
-The paper is under review for IEEE Transactions on
+For more details, please refer to my [arXiv paper](http://arxiv.org/abs/1804.09862)
+	or [the version](https://ieeexplore.ieee.org/document/8693518) published in IEEE Transactions on
 	Circuits and Systems for Video Technology.
 
 ### Citing AAP
