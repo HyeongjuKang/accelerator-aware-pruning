@@ -72,7 +72,7 @@ with only on-chip memory, without DRAM.
 The implementation details will be presented in a poster session of ISFPGA 2023,
 and the full version is uploaded to arXiv.
 
-	@inproceedings{acostream_2021,
+	@article{aocstream_2021,
 		author = {Kang, Hyeong-Ju},
 		title = {AoCStream: All-on-Chip CNN Accelerator With Stream-Based Line-Buffer Architecture},
 		version = {1},
@@ -82,11 +82,20 @@ and the full version is uploaded to arXiv.
 		eprint = {http://arxiv.org/abs/1112.4344v1},
 		url = {http://arxiv.org/abs/1112.4344v1}
 	}
+	@inproceedings{aocstream_isfpga,
+		author = {Kang, Hyeong-Ju},
+		title = {AoCStream: All-on-Chip CNN Accelerator With Stream-Based Line-Buffer Architecture},
+		booktitle = {Proceedings of ACM/SIGDA International Symposium on Field Programmable Gate Arrays},
+		year = {2023},
+		pages = {}
+	}
 
 | CNNs						| Input Size	| prototxt	| unpruned AP50, AP\*	| pruned (p/g=6/8) AP50, AP\*	|
 |---------------------------|---------------|-----------|-----------------------|-------------------------------|
 | MobileNetV1 + SSDLiteX	| 320			| [prototxt]| [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, ](https://drive.google.com/file/d/1e41BB2OrMypdDw6P_1JHu0lWaiAWjj9J/view?usp=share_link) |
 | MobileNetV1 + SSDLiteX	| 384			| [prototxt]| [37.6%, 23.8%](https://drive.google.com/file/d/1dkMhDVTCjnNQ4k0PGqBzaez6EksjBfqp/view?usp=share_link) | [37.1%, ](https://drive.google.com/file/d/178zxWFNIX7tYtmQY3rnltha96HHkjlW3/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 484			| [prototxt]| [41.1%, 25.7%](https://drive.google.com/file/d/1x0waumEgV2GEjCthoIw3cRMFJ3c2i8ZN/view?usp=share_link) | [40.4%, ](https://drive.google.com/file/d/1dqC-uDl15HbmGV8Fz9NHPRkn9_fvhA4O/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 512			| [prototxt]| [42.1%, 26.6%](https://drive.google.com/file/d/1QR7LwgC5bYs6Fac7wN3Die-DGo0bmjQ1/view?usp=share_link) | [40.1%, ](https://drive.google.com/file/d/11ufSHoQivGDTEMzhj5z4crkRyAnNpCjn/view?usp=share_link) |
 
 
 \* AP: MS COCO AP
