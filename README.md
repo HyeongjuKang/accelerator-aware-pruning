@@ -62,3 +62,32 @@ In the following models, fully connected layers are pruned, too.
 | VGG 16	| 16| 12| 15| 12| 88.95%			|[caffemodel](https://drive.google.com/file/d/1RNZDQzehI4AHpjskJ5rRLKcrmnv955LW/view?usp=sharing)
 | ResNet-50 | 16| 12| - | 12| 91.24%			|[caffemodel](https://drive.google.com/file/d/18IQ_AA5dw3cMXxNueJA0bBr04xJBOZRk/view?usp=sharing)
 | ResNet-152| 16| 12| - | 12| 92.54%			|[caffemodel](https://drive.google.com/file/d/1I3NSvUVY0X5bWyo_1mkgg-V_4On73MF1/view?usp=sharing)
+
+### Object Detection CNNs
+AAP can be applied to object detection CNNs, too.
+The following models are object detection CNNs with MobileNetV1 + SSDLiteX.
+(SSDLiteX will be published soon.)
+These models are pruned and implemented on a low-end FPGA
+with only on-chip memory, without DRAM.
+The implementation details will be presented in a poster session of ISFPGA 2023,
+and the full version is uploaded to arXiv.
+
+	@inproceedings{acostream_2021,
+		author = {Kang, Hyeong-Ju},
+		title = {AoCStream: All-on-Chip CNN Accelerator With Stream-Based Line-Buffer Architecture},
+		version = {1},
+		date = {2011-12-19},
+		eprinttype = {arxiv},
+		eprintclass = {cs.LG, cs.GT},
+		eprint = {http://arxiv.org/abs/1112.4344v1},
+		url = {http://arxiv.org/abs/1112.4344v1}
+	}
+
+| CNNs						| Input Size	| prototxt	| unpruned AP50, AP\*	| pruned (p/g=6/8) AP50, AP\*	|
+|---------------------------|---------------|-----------|-----------------------|-------------------------------|
+| MobileNetV1 + SSDLiteX	| 320			| [prototxt]| [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, ](https://drive.google.com/file/d/1e41BB2OrMypdDw6P_1JHu0lWaiAWjj9J/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 384			| [prototxt]| [37.6%, 23.8%](https://drive.google.com/file/d/1dkMhDVTCjnNQ4k0PGqBzaez6EksjBfqp/view?usp=share_link) | [37.1%, ](https://drive.google.com/file/d/178zxWFNIX7tYtmQY3rnltha96HHkjlW3/view?usp=share_link) |
+
+
+\* AP: MS COCO AP
+
