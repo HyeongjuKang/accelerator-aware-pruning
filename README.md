@@ -30,10 +30,8 @@ Please cite AAP in your publications if it helps your research:
 		year = {2020}
 	}
 
-## Pruned Models
-More pruned models will be uploaded here soon.
+## 1. Pruned Models - Classification CNNs
 
-### Classification CNNs
 In the following models, only convolutional layers are pruned.
 
 | CNNs		| g	| p	| top-5 | pruned models |
@@ -63,8 +61,11 @@ In the following models, fully connected layers are pruned, too.
 | ResNet-50 | 16| 12| - | 12| 91.24%			|[caffemodel](https://drive.google.com/file/d/18IQ_AA5dw3cMXxNueJA0bBr04xJBOZRk/view?usp=sharing)
 | ResNet-152| 16| 12| - | 12| 92.54%			|[caffemodel](https://drive.google.com/file/d/1I3NSvUVY0X5bWyo_1mkgg-V_4On73MF1/view?usp=sharing)
 
-### Object Detection CNNs
+## 2. Pruned Models - Object Detection CNNs
 AAP can be applied to object detection CNNs, too.
+
+### 2.1. MobileNetV1 + SSDLiteX
+
 The following models are object detection CNNs with MobileNetV1 + SSDLiteX.
 (SSDLiteX will be published soon.)
 These models are pruned and implemented on a low-end FPGA
@@ -97,6 +98,10 @@ and the full version is uploaded to arXiv.
 | MobileNetV1 + SSDLiteX	| 484			| [prototxt]| [41.1%, 25.7%](https://drive.google.com/file/d/1x0waumEgV2GEjCthoIw3cRMFJ3c2i8ZN/view?usp=share_link) | [40.4%, ](https://drive.google.com/file/d/1dqC-uDl15HbmGV8Fz9NHPRkn9_fvhA4O/view?usp=share_link) |
 | MobileNetV1 + SSDLiteX	| 512			| [prototxt]| [42.1%, 26.6%](https://drive.google.com/file/d/1QR7LwgC5bYs6Fac7wN3Die-DGo0bmjQ1/view?usp=share_link) | [40.1%, ](https://drive.google.com/file/d/11ufSHoQivGDTEMzhj5z4crkRyAnNpCjn/view?usp=share_link) |
 
-
 \* AP: MS COCO AP
 
+The implementation results are available at Section 1 of [this page]
+The models can be downloaded at Section 2.1 of [this page](https://github.com/HyeongjuKang/aocstream).
+
+### More
+More pruned models will be uploaded here soon.
