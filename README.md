@@ -93,15 +93,14 @@ and the full version is uploaded to arXiv.
 
 | CNNs						| Input Size	| prototxt	| unpruned AP50, AP\*	| pruned (p/g=6/8) AP50, AP\*	|
 |---------------------------|---------------|-----------|-----------------------|-------------------------------|
-| MobileNetV1 + SSDLiteX	| 320			| [prototxt]| [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, ](https://drive.google.com/file/d/1e41BB2OrMypdDw6P_1JHu0lWaiAWjj9J/view?usp=share_link) |
-| MobileNetV1 + SSDLiteX	| 384			| [prototxt]| [37.6%, 23.8%](https://drive.google.com/file/d/1dkMhDVTCjnNQ4k0PGqBzaez6EksjBfqp/view?usp=share_link) | [37.1%, ](https://drive.google.com/file/d/178zxWFNIX7tYtmQY3rnltha96HHkjlW3/view?usp=share_link) |
-| MobileNetV1 + SSDLiteX	| 484			| [prototxt]| [41.1%, 25.7%](https://drive.google.com/file/d/1x0waumEgV2GEjCthoIw3cRMFJ3c2i8ZN/view?usp=share_link) | [40.4%, ](https://drive.google.com/file/d/1dqC-uDl15HbmGV8Fz9NHPRkn9_fvhA4O/view?usp=share_link) |
-| MobileNetV1 + SSDLiteX	| 512			| [prototxt]| [42.1%, 26.6%](https://drive.google.com/file/d/1QR7LwgC5bYs6Fac7wN3Die-DGo0bmjQ1/view?usp=share_link) | [40.1%, ](https://drive.google.com/file/d/11ufSHoQivGDTEMzhj5z4crkRyAnNpCjn/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 320			| [prototxt]| [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, 21.1%](https://drive.google.com/file/d/1e41BB2OrMypdDw6P_1JHu0lWaiAWjj9J/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 384			| [prototxt]| [37.6%, 23.8%](https://drive.google.com/file/d/1dkMhDVTCjnNQ4k0PGqBzaez6EksjBfqp/view?usp=share_link) | [37.1%, 23.1%](https://drive.google.com/file/d/178zxWFNIX7tYtmQY3rnltha96HHkjlW3/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 484			| [prototxt]| [41.1%, 25.7%](https://drive.google.com/file/d/1x0waumEgV2GEjCthoIw3cRMFJ3c2i8ZN/view?usp=share_link) | [40.4%, 24.7%](https://drive.google.com/file/d/1dqC-uDl15HbmGV8Fz9NHPRkn9_fvhA4O/view?usp=share_link) |
+| MobileNetV1 + SSDLiteX	| 512			| [prototxt]| [42.1%, 26.6%](https://drive.google.com/file/d/1QR7LwgC5bYs6Fac7wN3Die-DGo0bmjQ1/view?usp=share_link) | [40.1%, 25.3%](https://drive.google.com/file/d/11ufSHoQivGDTEMzhj5z4crkRyAnNpCjn/view?usp=share_link) |
 
 \* AP: MS COCO AP
 
-The implementation results are available at Section 1 of [this page]
-The models can be downloaded at Section 2.1 of [this page](https://github.com/HyeongjuKang/aocstream).
+The implementation results are available at Section 1 of [this page](https://github.com/HyeongjuKang/aocstream).
 
 ### More
 More pruned models will be uploaded here soon.
