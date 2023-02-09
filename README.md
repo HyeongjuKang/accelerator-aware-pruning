@@ -100,7 +100,7 @@ and the full version is uploaded to arXiv.
 
 | CNNs						| Input Size	| prototxt	| unpruned AP50, AP\*	| pruned (p/g=6,7,6/8)\** and quantized AP50, AP\*	|
 |---------------------------|---------------|-----------|-----------------------|-------------------------------|
-| MobileNetV1 + SSDLiteX	| 320			| [prototxt](prototxt/mobile1_ssdlitex_320.prototxt) | [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, 20.6%]()
+| MobileNetV1 + SSDLiteX	| 320			| [prototxt](prototxt/mobile1_ssdlitex_320.prototxt) | [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, 20.6%](https://drive.google.com/file/d/1puoz0oruvw9Z2UN_uqJc-8UlS4xcfPU8/view?usp=share_link)
 
 \* AP: MS COCO AP
 
