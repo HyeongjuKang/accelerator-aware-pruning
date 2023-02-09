@@ -103,7 +103,8 @@ and the full version is uploaded to arXiv.
 | MobileNetV1 + SSDLiteX	| 320			| [prototxt](prototxt/mobile1_ssdlitex_320.prototxt) | [35.0%, 21.9%](https://drive.google.com/file/d/1aWww9mvZRwQmguftiiHuhGAGF0ezzjaa/view?usp=share_link) | [34.5%, 20.6%]()
 
 \* AP: MS COCO AP
-\**
+
+\** Some large layers (where the number input or output channels are larger than or equal to 1024) are pruned to 12.5%.
 
 The implementation results are available at Section 1 of [this page](https://github.com/HyeongjuKang/aocstream).
 
